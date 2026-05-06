@@ -19,10 +19,10 @@ AI Resume Examiner is a web application built with **Streamlit** that allows use
 1. Clone the repository:
 
 ```
-git clone https://github.com/yourusername/ai-resume-examiner.git
+git clone https://github.com/umarjawad123/ai-resume-examiner.git
 cd ai-resume-examiner
-Create a virtual environment:
 
+Create a virtual environment:
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
@@ -44,20 +44,23 @@ Streamlit – For building the web interface
 PyPDF2 – For extracting text from PDF resumes
 OpenAI Python SDK – For connecting with GPT models
 python-dotenv – For environment variable management
+```
 
-Project Structure
+## Project Structure
+
 ai-resume-examiner/
 │
 ├─ main.py                # Main Streamlit app
 ├─ requirements.txt      # Python dependencies
 ├─ .env                  # API key file (not uploaded to GitHub)
 └─ README.md             # Project description
+---
+## Future Improvements
 
-Future Improvements
 Add OCR support for scanned resumes.
 Improve handling for very large resumes.
 Provide downloadable PDF feedback for users.
 Integrate role-based templates for faster analysis.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
