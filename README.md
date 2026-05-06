@@ -52,7 +52,7 @@ ai-resume-examiner/
 │
 ├─ main.py               # Main Streamlit app
 ├─ requirements.txt      # Python dependencies
-├─ .env                  # API key file (not uploaded to GitHub)
+├─ .env                  # API key file 
 └─ README.md             # Project description
 
 ## Future Improvements
