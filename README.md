@@ -50,17 +50,17 @@ python-dotenv – For environment variable management
 
 ai-resume-examiner/
 │
-├─ main.py                # Main Streamlit app
+├─ main.py               # Main Streamlit app
 ├─ requirements.txt      # Python dependencies
 ├─ .env                  # API key file (not uploaded to GitHub)
 └─ README.md             # Project description
----
+
 ## Future Improvements
 
-Add OCR support for scanned resumes.
-Improve handling for very large resumes.
-Provide downloadable PDF feedback for users.
-Integrate role-based templates for faster analysis.
+- Add OCR support for scanned resumes.
+- Improve handling for very large resumes.
+- Provide downloadable PDF feedback for users.
+- Integrate role-based templates for faster analysis.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
